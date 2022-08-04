@@ -20,7 +20,7 @@ class AliquotNumbersTest extends BaseIOTest {
 
         aliquotNumbers.isFirstAliquot(5, 25);
 
-        assertEquals("Aliquot\n", updateLineSpliterators(outContent.toString()));
+            assertEquals("Aliquot\n", updateLineSpliterators(outContent.toString()));
     }
 
     @Test
